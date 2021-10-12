@@ -1,0 +1,57 @@
+.container {
+  padding: 1rem;
+  height: 100vh;
+  background: #00467f;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#00467f), to(#a5cc82));
+  background: linear-gradient(to bottom, #00467f, #a5cc82);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container .box {
+  width: 500px;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 2px 6px 2px #000000;
+  box-shadow: 0px 2px 6px 2px #000000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container .box .title {
+  color: #fff;
+  font-weight: 700;
+  left: 30%;
+  top: 4%;
+  font-size: 18px;
+  position: absolute;
+}
+
+.container .box .title p {
+  text-align: center;
+}
+
+.container .box .logo {
+  position: absolute;
+  left: 40%;
+  top: 25%;
+}
+
+.container .box .logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.container .box .login {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=Login.module.css.map */

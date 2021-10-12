@@ -1,0 +1,41 @@
+.container{
+    min-width: 20%;
+    width: auto ;
+    height: auto ;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 30px;
+   position: relative;
+   span{
+    font-size: 11px;
+    color: #7c7c7c;
+    position: absolute;
+}
+.myMssgTime{
+    left: 93px;
+    bottom: -23px;
+}
+.otherMssgTime{
+    right: 3px;
+    bottom: -23px;
+}
+   
+    
+    p{
+        position: relative;
+        font-size: 16px;
+        color: #fff;
+        margin: 0;
+      
+
+    }
+}
+.myMssg{
+    float: right;
+    background-color: rgb(85, 189, 120);
+
+}
+.otherMssg{
+    background-color: rgb(0, 132, 255);
+    float: left;
+}

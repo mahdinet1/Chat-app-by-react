@@ -1,0 +1,42 @@
+.container{
+    width: 100%;
+    height: 88%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+   
+    .sendsection{
+            width: 100%;
+            height: 10%;
+            form{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                padding: 0 1rem;
+                justify-content: space-between;
+                box-sizing: border-box;
+            }
+            form input{
+                width: 70%;
+                height:55px;
+                border: 0;
+            }
+            form input:focus{
+               outline: none;
+            }
+            ::placeholder{
+                color: rgb(133, 202, 241);
+            }
+            form button{
+                border: 0;
+                background: transparent;
+                color: gray;
+                
+            }
+           
+            form button:nth-child(2){
+                opacity: 0.5;
+            }
+           
+    }
+}

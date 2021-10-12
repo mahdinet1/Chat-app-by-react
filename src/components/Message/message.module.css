@@ -1,0 +1,43 @@
+.container {
+  min-width: 20%;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 30px;
+  position: relative;
+}
+
+.container span {
+  font-size: 11px;
+  color: #7c7c7c;
+  position: absolute;
+}
+
+.container .myMssgTime {
+  left: 93px;
+  bottom: -23px;
+}
+
+.container .otherMssgTime {
+  right: 3px;
+  bottom: -23px;
+}
+
+.container p {
+  position: relative;
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+}
+
+.myMssg {
+  float: right;
+  background-color: #55bd78;
+}
+
+.otherMssg {
+  background-color: #0084ff;
+  float: left;
+}
+/*# sourceMappingURL=message.module.css.map */

@@ -1,0 +1,81 @@
+.container {
+  width: calc(100% - 1000px);
+  height: 100vh;
+}
+
+.container .info {
+  width: 100%;
+  height: 25%;
+  background: #fff;
+  padding: 10px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .info .name {
+  margin-left: 20px;
+}
+
+.container .info .name label {
+  font-size: 16px;
+}
+
+.container .info .name label span {
+  margin-left: 10px;
+}
+
+.container .info .email {
+  margin-left: 20px;
+}
+
+.container .info .email label {
+  font-weight: 500;
+}
+
+.container .info .email p {
+  color: gray;
+}
+
+.container .info .image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.container .info .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.container .appInfo {
+  padding: 10px 15px;
+  margin-top: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #f1f1ed;
+  width: 100%;
+  height: 69%;
+  border-radius: 5px;
+}
+
+.container .appInfo h6 {
+  text-align: center;
+}
+
+.container .appInfo .button {
+  position: fixed;
+  bottom: 10px;
+}
+
+.container .devider {
+  text-align: center;
+}
+
+.container .devider p {
+  margin: 0 auto;
+  display: inline-block;
+  color: #cccccc;
+}
+/*# sourceMappingURL=rightSide.module.css.map */

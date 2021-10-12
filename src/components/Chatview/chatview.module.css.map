@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAA;EACN,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,YAAY,EAAE,iBAAiB;EAC/B,UAAU,EAAE,UAAU;EACtB,WAAW,EAAE,iBAAiB;CAEjC",
+    "sources": [
+        "chatview.module.scss"
+    ],
+    "names": [],
+    "file": "chatview.module.css"
+}
